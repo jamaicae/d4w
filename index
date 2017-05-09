@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head profile="http://dublincore.org/documents/2008/08/04/dc-html/">
+        <meta name="DC.Title" content="#ULTIMOTE History">
+        <meta name="DC.Creator" content="Ombré: Isobel Andrews, Jamaica Eisner, and Katherine Ho">
+        <meta name="DC.Subject" scheme="DCTERMS.AAT" content="History of the Pyrmont Ultimo area">
+        <meta name="DC.Description" content="#Ultimote History is a website and research resource developed by a team of students from the University of Technology Sydney.">
+        <meta name="DC.Publisher" content="Ombré (UTS)">
+        <meta name="DC.Contributor" content="University of Technology Sydney (UTS)">
+        <meta name="DCTERMS.Created" scheme="DCTERMS.Period" content="24-10-16">
+        <meta name="DC.Language" content="en">
+        <meta name="DC.Audience" content="Students">
+        <meta charset="UTF-8">
+<title>#ULTIMOte History</title>
+<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="scripts/stylesheet.css">
+    <script src="scripts/javascript.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <h1 class="title"><a href="index.html" title="#ULTIMOte History" alt="#ULTIOMOte History">#ULTIMOte History</a></h1>
+    
+    <div id="search">
+        <input type="text" name="search" placeholder="Search..">
+    </div>
+        
+    <nav>
+        <ul>
+            <li><a class="active" href="index.html" title="Home" alt="Home">Home</a></li>
+            <li class="dropdown"><a href="pages/Histories1/Histories.html" class="dropbtn" title="Histories">Histories</a>
+                <div class="dropdown-content">
+                    <a href="pages/Histories1/Indigenous.html">Indigenous</a>
+                    <a href="pages/Histories1/Workers.html">Workers'</a>
+                    <a href="pages/Histories1/Political.html">Political</a>
+                </div>
+            </li>
+           <li class="dropdown"><a href="pages/Buildings1/Buildings.html" class="dropbtn" title="Buildings">Buildings</a>
+                <div class="dropdown-content">
+                    <a href="pages/Buildings1/Streets.html">Streets/Places</a>
+                    <a href="pages/Buildings1/Business&Institutions.html">Business/Institutions</a>
+                </div>
+            </li>
+            <li><a href="pages/Timeline1/Timeline.html" class="dropbtn" title="Timeline">Timeline</a></li>
+            <li class="dropdown"><a href="pages/About1/About.html" class="dropbtn" title="About">About</a>
+                <div class="dropdown-content">
+                    <a href="pages/About1/ContactUs.html">Contact Us</a>
+                    <a href="pages/About1/Sitemap.html">Sitemap</a>
+                    <a href="pages/About1/FAQ.html">FAQ</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    </div>
+
+<div id="main">
+    
+    <h2 id="top">WELCOME</h2>
+    
+    <p align="center">The #Ultimote history website provides histories of people, places and events in the City of Sydney local government area of Ultimo.</p><br>
+    
+    <div class="row">
+    <div class="column">
+    <img src="images/birdcage.jpg" onclick="openModal();currentSlide(1)" width=100% class="hover-shadow">
+    </div>
+        
+    <div class="column">
+    <img src="images/brickwall.jpg" onclick="openModal();currentSlide(2)" width=100% class="hover-shadow">
+    </div>
+        
+    <div class="column">
+    <img src="images/lightrail.jpg"  onclick="openModal();currentSlide(3)" width=100% class="hover-shadow">
+    </div>
+        
+    <div class="column">
+    <img src="images/pyrmontbridge.jpg" onclick="openModal();currentSlide(4)" width=100% class="hover-shadow">
+    </div>
+    </div>
+
+    <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times; </span>
+    <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+        <img src="images/birdcage.jpg">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+        <img src="images/brickwall.jpg">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+        <img src="images/lightrail.jpg">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+        <img src="images/pyrmontbridge.jpg">
+    </div>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/birdcage.jpg" onclick="currentSlide(1)" alt="Bird cage">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/brickwall.jpg" onclick="currentSlide(2)" alt="Brickwall">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/lightrail.jpg" onclick="currentSlide(3)" alt="Lightrail">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/pyrmontbridge.jpg" onclick="currentSlide(4)" alt="Pyrmont Bridge">
+    </div>
+    </div>
+    </div>
+    
+    <br><h3>Early history</h3>
+    <p>A selection of highlights representing the early history and development of the Ultimo area.</p><br>
+    
+    <section class="row">
+        <div class="grid">
+            <section class="col-1-3">
+                <img src="images/pyrmont1880.png" alt="Pyrmont in 1880" title="Pyrmont in 1880">
+                <h3>Pyrmont in 1880</h3>
+                <p>A map of Johnstones Bay in the Pyrmont area c.1880</p>
+                 <img src="images/technicalcollege.png" alt="Ultimo Technical college and museum 1894" title="Ultimo Technical college and museum 1894">
+                <h3>Technical College and Museum, 1894 </h3>
+                <p>Photograph courtesy of the Mitchell Library, State Library of NSW. The original Sydney Technical College opened in 1892, The University of Technology and the University of NSW began as units of the Technical college.</p>
+            </section>
+            
+            <section class="col-1-3">
+                <img src="images/asnshipyards1870.JPG" alt="Pyrmont in 1870, view of the ASN Shipyards" title="Pyrmont in 1870, view of the ASN Shipyards">
+                <h3>View of Pyrmont from Town Hall tower</h3>
+                <p>View overlooks the original Pyrmont bridge, Fife's iron foundry, the ASN shipyards, and St. Bartholomew's c.1870</p>
+                <img src="images/johnharris" alt="John Harris, surgeon c1790-1805" title="John Harris">
+                <h3>John Harris</h3>
+                <p>A surgeon and public servant (c1790-1805), John Harris was responsible for much of the development of the Pyrmont-Ultimo area.</p>
+            </section>  
+            
+            <section class="col-1-3">
+                <img src="images/ultimohouse.JPG" alt="Ultimo House circa 1905" title="Ultimo House">
+                <img src="images/ultimoplace_cocklebay.png" alt="Ultimo Place with Cockle Bay c1821-1823" title="Ultimo Place">
+                <h3>Ultimo House c. 1905</h3>
+                <p>Ultimo House was built in 1804 by convicts for John Harris, who was responsible for many landholdings in the Ultimo area, and before being demolished in November 1932, was thought to be Sydney's oldest standing house.</p>
+                <img src="images/ultimoskyline" alt="Ultimo skyline 1961" title="Ultimo skyline">
+                <h3>Photo of the Ultimo skyline in 1961</h3>
+                <p>Photo by By Carter, Jeff. Contributed by <a href="http://dictionaryofsydney.org/contributor/national_library_of_australia">National Library of Australia</a> [<a href="http://nla.gov.au/nla.pic-vn3104092">nla.pic-vn3104092</a>]</p>
+            </section>
+        </div>
+    </section>
+    
+    <p align="center"><a href=#top>Top</a></p>
+</div>
+</body>
+    
+<div id="footer">
+    <br>
+    <section class="row">
+    <div class="grid">
+        <div class="col-1-3">
+            <img align="left" src="icons/UltimoHistoriansLogo.png" alt="Ultimo Historians logo" title="Ultimo Historians logo">
+            
+            <a href="https://www.facebook.com/"><img id="icons" src="icons/fb.png" alt="Facebook logo" title="Facebook logo"></a>
+            <a href="https://twitter.com/?lang=en"><img id="icons" src="icons/twitter.png" alt="Twitter logo" title="Twitter logo"></a>
+            <a href="https://www.instagram.com/?hl=en"><img id="icons" src="icons/insta.png" alt="Instagram logo" title="Instagram logo"></a>
+            <a href="https://www.youtube.com/"><img id="icons" src="icons/youtube.png" alt="Youtube logo" title="Youtube logo"></a>
+            
+        </div>
+        <aside align="left" class="col-2-3">
+            <div id="sitemap">
+                <ul>
+                    <li><a href="index.html" title="Home" alt="Home">Home</a></li>
+                    <li><a href="pages/Histories1/Histories.html" title="Histories">Histories</a></li>
+                    <li><a href="pages/Buildings1/Buildings.html" title="Buildings">Buildings</a></li>
+                    <li><a href="pages/Timeline1/Timeline.html">Timeline</a></li>
+                    <li><a href="pages/About1/About.html">About</a></li>
+                </ul>
+            </div><br>
+            <br>
+            <p>Website best viewed in <img src="icons/chrome.png" alt="Chrome icon" title="Chrome icon" width="20px;"></p>
+            <p>Copyright &copy; <a href="pages/About1/About.html#UH">Ultimo Historians</a></p>
+            <p>Website by <a href="pages/About1/ContactUs.html#ombre">Ombré</a></p>
+            
+        </aside>
+        </div>
+        </section>
+    
+    </div>    
+</html>
