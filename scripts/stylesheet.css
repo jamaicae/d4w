@@ -40,6 +40,8 @@ h3 {
     font-size: 50px;
     font-family: "Lucida Console";
     letter-spacing: 3px;
+	font-variant: small-caps;
+	font-weight: 700;
 }
 
 .title a:link {
