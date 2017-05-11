@@ -38,7 +38,7 @@ h3 {
     padding-bottom: 40px;
     margin: auto;
     font-size: 50px;
-    font-family: Lucida Console;
+    font-family: "Lucida Console";
     letter-spacing: 3px;
 }
 
@@ -48,7 +48,7 @@ h3 {
 }
 
 .title a:visited {
-    color: #FF9900;
+    color: #ffffff;
     text-decoration: none;
 }
 
